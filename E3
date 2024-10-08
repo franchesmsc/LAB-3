@@ -1,0 +1,5 @@
+def vowelsToUpper(s: str) -> str:
+    return ''.join([char.upper() if char in 'aeiouAEIOU' else char for char in s])
+print(vowelsToUpper("")) 
+print(vowelsToUpper("Hello, Philippines!")) 
+print(vowelsToUpper("hello love again")) 
